@@ -46,12 +46,16 @@ body{
 #imagen{
     width: 50%;
     float: left;
+    margin: 0 auto;
+    display: block;
 }
-#imagen img {
+#imagen2 {
+    width: 80%;
     margin: 0 auto;
     display: block;
 }
 #datos{
+    
   padding-left: 50px;
 }
 /*------- ESTILOS PARA LAS CATEGORIAS ------*/
@@ -92,10 +96,17 @@ body{
     width: 150px;
     padding: 30px;
 }
+
+.botones{
+    margin: auto;
+}
+
 /*------- ESTILOS FOOTER ----*/
 #footer{
     background-color: #000000;
-    padding: 20px 100px 70px 100px;
+    /*padding: 20px 100px 70px 100px;*/
     color: white;
     text-align: center;
+    height: 50px;
+    vertical-align: center;
   }
